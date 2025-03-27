@@ -27,7 +27,7 @@ Specifically, we first propose a prototype-based object mining module that conve
 
 ### Label Preparation
 - We provide the indoor sparse supervised split of `scannet_infos_train.pkl` and `sunrgbd_infos_train.pkl` on [GoogleDrive](https://drive.google.com/drive/folders/1mr9BA7wxBvkiTk5uSpVPSe0gPB8My1CX?usp=sharing).
-- Otherwise, you can generate your own `pkl` by [create_sparse_infos](tools\create_sparse_infos.py).
+- Otherwise, you can generate your own `pkl` by [create_sparse_infos](tools/create_sparse_infos.py).
 
 
 ### Training
