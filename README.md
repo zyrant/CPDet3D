@@ -32,7 +32,7 @@ Specifically, we first propose a prototype-based object mining module that conve
 
 ### Training
 
-To start training, run [train](tools/train.py) with CPDet3D [configs](projects_sparse\configs), it includes two stages.
+To start training, run [train](tools/train.py) with CPDet3D [configs](projects_sparse/configs), it includes two stages.
 
 
 ### Testing
