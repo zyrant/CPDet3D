@@ -15,7 +15,7 @@ Specifically, we first propose a prototype-based object mining module that conve
 
 ### Environment settings
 
-- For installing the environment, we follow [SPGroup3D](https://github.com/zyrant/SPGroup3D).
+- To install the environment, we follow [SPGroup3D](https://github.com/zyrant/SPGroup3D).
 
 - All the `CPDet3D`-related code locates in the folder [projects_sparse](projects).
 
@@ -32,18 +32,18 @@ Specifically, we first propose a prototype-based object mining module that conve
 
 ### Training
 
-To start training, run [train](tools/train.py) with CPDet3D [configs](projects_sparse/configs), it includes two stages.
+To start training, run [train](tools/train.py) with CPDet3D [configs](projects_sparse/configs), which includes two stages.
 
 
 ### Testing
 
-Test pre-trained model using [test](tools/dist_test.sh) with CPDet3D [configs](projects/configs).
+Test pre-trained model using [test](tools/dist_test.sh) with CPDet3D [configs](projects_sparse/configs).
 
 ### Main Results
 | Dataset | mAP@0.25 | mAP@0.5 | Download | config |
 |:-------:|:--------:|:-------:|:--------:|:--------:|
-| ScanNet V2 | 56.1 | 40.8 | [GoogleDrive](https://drive.google.com/drive/folders/1MPW8A0UsLTwGwE5dLwMPC5h5fhIu29kO?usp=sharing)  | [config](projects_sparse\configs\two_stage\tr3d_scannet-3d-18class_cpdet3d_2.py) |
-| SUN RGB-D | 60.2 | 43.3| [GoogleDrive](https://drive.google.com/drive/folders/1MPW8A0UsLTwGwE5dLwMPC5h5fhIu29kO?usp=sharing) |[config](projects_sparse\configs\two_stage\tr3d_sunrgbd-3d-10class_cpdet3d_2.py) |
+| ScanNet V2 | 56.1 | 40.8 | [GoogleDrive](https://drive.google.com/drive/folders/1MPW8A0UsLTwGwE5dLwMPC5h5fhIu29kO?usp=sharing)  | [config](projects_sparse/configs/two_stage/tr3d_scannet-3d-18class_cpdet3d_2.py) |
+| SUN RGB-D | 60.2 | 43.3| [GoogleDrive](https://drive.google.com/drive/folders/1MPW8A0UsLTwGwE5dLwMPC5h5fhIu29kO?usp=sharing) |[config](projects_sparse/configs/two_stage/tr3d_sunrgbd-3d-10class_cpdet3d_2.py) |
 
 
 Due to the size of these datasets and the randomness that inevitably exists in the model,  the results on these datasets fluctuate significantly. It's normal for results to fluctuate within a range.
@@ -68,4 +68,4 @@ This project is based on the following codebases.
 - [TR3D](https://github.com/SamsungLabs/tr3d)
 - [ProtoSeg](https://github.com/tfzhou/ProtoSeg)
 
-If you find this project helpful, Please also cite the codebases above. Thanks.
+If you find this project helpful, please also cite the codebases above. Thanks.
