@@ -17,7 +17,7 @@ Specifically, we first propose a prototype-based object mining module that conve
 
 - To install the environment, we follow [SPGroup3D](https://github.com/zyrant/SPGroup3D).
 
-- All the `CPDet3D`-related code locates in the folder [projects_sparse](projects).
+- All the `CPDet3D`-related code locates in the folder [projects_sparse](projects_sparse/configs).
 
 
 ### Data Preparation
