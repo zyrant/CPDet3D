@@ -6,7 +6,7 @@ This project provides the code and results for 'Learning Class Prototypes for Un
 
 Anchors: Yun Zhu, [Le Hui](https://scholar.google.com/citations?user=se31JGQAAAAJ&hl=zh-CN), Hang Yang, [Jianjun Qian](https://scholar.google.com/citations?user=oLLDUM0AAAAJ&hl=zh-CN), [Jin Xie*](https://scholar.google.com/citations?user=Q7QqJPEAAAAJ&hl=zh-CN), [Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN)
 
-PaperLink: 
+PaperLink: https://arxiv.org/pdf/2503.21099
 
 
 ### Introduction
