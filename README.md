@@ -67,5 +67,6 @@ This project is based on the following codebases.
 - [mmdetection3D](https://github.com/open-mmlab/mmdetection3d)
 - [TR3D](https://github.com/SamsungLabs/tr3d)
 - [ProtoSeg](https://github.com/tfzhou/ProtoSeg)
+- [DQS3D](https://github.com/AIR-DISCOVER/DQS3D)
 
 If you find this project helpful, please also cite the codebases above. Thanks.
