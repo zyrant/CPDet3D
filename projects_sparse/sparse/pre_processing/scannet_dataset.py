@@ -187,13 +187,14 @@ class SPScanNetDataset(Custom3DDataset):
         info = self.data_infos[index]
         sample_idx = info['point_cloud']['lidar_idx']
         pts_filename = osp.join(self.data_root, info['pts_path'])
-        superpoints_filename = osp.join(self.data_root, info['pts_superpoints_path'])
+        # superpoints_filename = osp.join(self.data_root, info['pts_superpoints_path'])
 
         input_dict = dict(
             pts_filename=pts_filename,
             sample_idx=sample_idx,
             file_name=pts_filename,
-            superpoints_filename=superpoints_filename)
+            # superpoints_filename=superpoints_filename
+        )
 
         if not self.test_mode:
             annos = self.get_ann_info(index)
