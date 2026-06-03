@@ -191,10 +191,10 @@ class SPSUNRGBDDataset(Custom3DDataset):
 
         if self.modality['use_lidar']:
             pts_filename = osp.join(self.data_root, info['pts_path'])
-            superpoints_filename = osp.join(self.data_root, info['pts_superpoints_path'])
+            # superpoints_filename = osp.join(self.data_root, info['pts_superpoints_path'])
             input_dict['pts_filename'] = pts_filename
             input_dict['file_name'] = pts_filename
-            input_dict['superpoints_filename'] = superpoints_filename
+            # input_dict['superpoints_filename'] = superpoints_filename
 
         if self.modality['use_camera']:
             img_filename = osp.join(
